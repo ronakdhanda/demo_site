@@ -1,0 +1,28 @@
+.nav-link{
+    color:black;
+}
+.nav-link:hover{
+    color:white;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.main-image{
+    border: 1px solid white;
+    height: 70vh;
+    width: 40vw;
+    object-fit: cover;
+    padding: 5px;
+}
+img{
+    width: 35vw; 
+    height: minmax(300px, 400px);
+}
+.btn{
+    color: white;
+}
+.btn:hover{
+    color:black;
+}

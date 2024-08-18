@@ -8,12 +8,21 @@ label{
     font-family: cursive;
 }
 .display{
-    color: black;
+    color: rgb(5, 5, 5);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .content{
-    height: 50vh;
-    width: 40vw;
+    border: solid 2px ;
+    border-radius:12%;
+    height: 500px;
+    width: 400px;
+    background-color:#C8A1E0;
 }
 .main{
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-color:#E2BFD9;
+    
+}
+img{
+    border: 1px solid ;
+    border-radius: 50%;
 }

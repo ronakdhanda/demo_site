@@ -6,23 +6,47 @@
     color:grey;
 }
 .navbar{
-    background-color: #232F3E;
+    background-color:#DCA47C;
 }
 .body{
-    background-color: #E3E6E6;
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    background-color:#FCF8F3;
     height:100vh;
     width:100vw;
 }
-.item{
-    height: 15rem;
-    width:15rem;
-    background-color:white;
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat( auto-fit,minmax(300px, 0.5fr));
+    gap: 15px;
+    justify-content: center;
+    padding: 25px;
+
 }
-.item img{
-    height:90%;
-    width:80%;
+img{
+    height: 200px;
+    width: 200px;
+    object-fit: fill;
+    
+
 }
-.btn{
-    width:100%;
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#698474 ;
+    
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    padding: 2px;
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+button{
+    text-decoration: none;
 }
