@@ -6,17 +6,17 @@
     color:grey;
 }
 .navbar{
-    background-color:#DCA47C;
+    background-color:#136df5;
 }
 .body{
-    background-color:#BDE8CA;
+    background-color:#c3dee5;
     height:100vh;
     width:100vw;
 }
 .grid-container{
     display: grid;
     grid-template-columns: repeat( auto-fit,minmax(300px, 0.5fr));
-    gap: 15px;
+    gap: 20px;
     justify-content: center;
     padding: 25px;
 
@@ -24,17 +24,20 @@
 img{
     height: 200px;
     width: 200px;
-    object-fit: fill;
-    
-
 }
 .card{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:#698474 ;
-    
+    background-color:white;    
+}
+.card:hover{
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+    transition: 1s;
+    transform: scale(1.1);
+    z-index: 1;
+
 }
 .image{
     display: flex;
@@ -43,10 +46,9 @@ img{
     align-items: center;
     gap: 3px;
     padding: 2px;
-    text-decoration: none;
     color: whitesmoke;
-
 }
-button{
-    text-decoration: none;
+.text{
+    font-size: x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
